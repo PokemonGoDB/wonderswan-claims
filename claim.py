@@ -71,6 +71,9 @@ def http(url, tok=None, method="GET", body=None):
     data = json.dumps(body).encode() if body is not None else None
     req = urllib.request.Request(url, data=data, method=method)
     req.add_header("User-Agent", "wonderswan-claims")
+    if data is not None:
+        # urllib would call the body a web form; GitHub does not mind, but a proxy in between may refuse it (415).
+        req.add_header("Content-Type", "application/json")
     if "api.github.com" in url:
         req.add_header("Accept", "application/vnd.github+json")
         if tok:

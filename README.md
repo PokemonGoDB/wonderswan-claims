@@ -75,6 +75,17 @@ Reading works for anyone. Changing the list needs push access to this repository
 [`gh`](https://cli.github.com/) command, or a token in `GH_TOKEN`. The command takes your name from that
 account; `--who NAME` overrides it.
 
+**Where the GitHub API cannot be written to** (some cloud agent sessions and locked-down networks block it,
+while an ordinary `git push` still works), change the file in a clone of this repository and push it:
+
+```bash
+git clone https://github.com/PokemonGoDB/wonderswan-claims && cd wonderswan-claims
+python3 claim.py --local --who your-github-name claim "Blue Wing Blitz"
+git commit -am "your-github-name claims Blue Wing Blitz" && git push
+```
+
+`--local` reads and writes the `claims.json` beside the script; `done` works the same way.
+
 **No command line?** [Edit `claims.json` on GitHub](https://github.com/PokemonGoDB/wonderswan-claims/edit/main/claims.json)
 and add a block like this one inside `"claims": [ ... ]` (blocks are separated by commas). The game must be
 spelled as in [`titles.json`](titles.json), without the brackets:
