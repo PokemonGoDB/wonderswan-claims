@@ -5,6 +5,7 @@
     claim.py check "Blue Wing Blitz"   is it free? (exit 0 free, 1 taken, 2 a patch already exists)
     claim.py claim "Blue Wing Blitz"   put your name on it (run again to refresh the date)
     claim.py done  "Blue Wing Blitz"   take your name off (released, or given up)
+    claim.py wanted                    the games people voted for most, and whether each is free
 
 The list is claims.json in https://github.com/PokemonGoDB/wonderswan-claims. Reading needs nothing.
 Writing needs push access to that repository and a GitHub token: the GH_TOKEN or GITHUB_TOKEN
@@ -27,6 +28,8 @@ BRANCH = "main"
 API = "https://api.github.com"
 RAW = "https://raw.githubusercontent.com/%s/%s/" % (REPO, BRANCH)
 CATALOG = "https://raw.githubusercontent.com/mariovirgili/WonderSwan_bps_repo/main/index.json"
+WANTED = os.environ.get("WS_WANTED_URL", "https://swanrevival.com/api/wanted.json")
+VOTE_PAGE = "https://swanrevival.com/translations/wanted/"
 EDIT_URL = "https://github.com/%s/edit/%s/claims.json" % (REPO, BRANCH)
 HERE = os.path.dirname(os.path.abspath(__file__))
 STALE_DAYS = 30
@@ -387,6 +390,42 @@ def cmd_done(args):
     return 0
 
 
+def cmd_wanted(args):
+    titles = Titles()
+    try:
+        games = json.loads(http(WANTED)).get("games", [])
+    except (OSError, ValueError, AttributeError) as e:
+        die("cannot read the vote totals from %s (%s)" % (WANTED, e))
+    data, _ = load(args.local)
+    patches = released(titles)
+    lang = language(args.lang)
+    shown = 0
+    for g in games if isinstance(games, list) else []:
+        game, votes = (g.get("game"), g.get("votes")) if isinstance(g, dict) else (None, None)
+        if not isinstance(game, str) or not isinstance(votes, int):
+            continue
+        claims = [c for c in data["claims"] if norm(c["game"]) == norm(game) and same(c["language"], lang)]
+        done = [p for p in (patches or {}).get(game, []) if same(p[1], lang)]
+        if claims:
+            state = "TAKEN by " + ", ".join(c["who"] for c in claims)
+        elif done:
+            state = "ALREADY TRANSLATED by " + ", ".join(p[0] for p in done)
+        else:
+            state = "FREE"
+        if args.free and state != "FREE":
+            continue
+        print("%5d  %s (%s): %s" % (votes, game, titles.system_of(game), state))
+        shown += 1
+        if shown >= args.top:
+            break
+    if not shown:
+        print("Nobody has voted yet." if not games else "No game with votes is free.")
+    if patches is None:
+        print("(The patch catalog could not be read, so games already translated are not marked.)")
+    print("People vote at " + VOTE_PAGE)
+    return 0
+
+
 def problems(data, titles):
     out = []
     if not isinstance(data, dict) or not isinstance(data.get("claims"), list):
@@ -494,6 +533,12 @@ def main():
     s.add_argument("game")
     s.add_argument("--lang", help="only this language (default: all of yours for the game)")
     s.set_defaults(run=cmd_done)
+
+    s = sub.add_parser("wanted", help="the games people voted for most, and whether each is free")
+    s.add_argument("--free", action="store_true", help="only games nobody has claimed or translated")
+    s.add_argument("--top", type=int, default=20, help="how many to show (default 20)")
+    s.add_argument("--lang", help="language you would translate into (default English)")
+    s.set_defaults(run=cmd_wanted)
 
     s = sub.add_parser("validate", help="check claims.json")
     s.set_defaults(run=cmd_validate)

@@ -34,6 +34,14 @@ them by itself every day.
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
 
+## What people want
+
+Anyone can vote for the games they want translated at
+[swanrevival.com/translations/wanted](https://swanrevival.com/translations/wanted/): no account, one vote per
+game. That page shows the claims below beside each game. `python3 claim.py wanted` prints the totals with each
+game's state (`FREE`, `TAKEN by …`, `ALREADY TRANSLATED by …`); programs can read
+`https://swanrevival.com/api/wanted.json`.
+
 ## Using it
 
 Get the one file you need (Python 3.8 or newer, no packages):
@@ -50,6 +58,7 @@ curl -fsSLO https://raw.githubusercontent.com/PokemonGoDB/wonderswan-claims/main
 | Say you are still on it (refreshes the date) | `python3 claim.py claim "Blue Wing Blitz"` again |
 | Pause it, or leave a note | `python3 claim.py claim "Blue Wing Blitz" --status paused --note "back in December"` |
 | Take your name off | `python3 claim.py done "Blue Wing Blitz"` |
+| See what people want most | `python3 claim.py wanted` (add `--free` for games nobody has claimed or translated) |
 
 The game can be a full title, part of one (`"blue wing"`), or the ROM's CRC32. For a language other than
 English add `--lang Spanish`; two people can hold the same game in different languages.
@@ -99,6 +108,7 @@ Before starting work on any WonderSwan game, run
 - Exit code 0: run  python3 claim.py claim "<game title>"  and then start.
 While working on a game for more than a few weeks, run the claim command again to refresh the date.
 When the patch is released, or the game is abandoned, run  python3 claim.py done "<game title>".
+When I ask what to translate next, run  python3 claim.py wanted --free  and show me the list.
 ```
 
 ## Rules
