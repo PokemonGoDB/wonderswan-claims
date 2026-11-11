@@ -1,4 +1,15 @@
 {
   "schema": 1,
-  "claims": []
+  "claims": [
+    {
+      "game": "15 Puzzle",
+      "system": "WonderSwan",
+      "who": "PokemonGoDB",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-11",
+      "updated": "2026-11-11",
+      "note": "test of the claims list, will be removed"
+    }
+  ]
 }
