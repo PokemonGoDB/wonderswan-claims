@@ -13,9 +13,13 @@ them by itself every day.
 <!-- board:start -->
 | Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Armored Unit** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
+| **Chaos Gear - Michibikareshi Mono** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
+| **Dicing Knight.** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
+| **Digital Partner** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Langrisser Millennium WS - The Last Century** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 
-1 game in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+5 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
