@@ -123,7 +123,8 @@ When I ask what to translate next, run  python3 claim.py wanted --free  and show
 
 - `claims.json`: the list. One block per game and language.
 - `claim.py`: the command above.
-- `titles.json`: the 448 released titles and their ROM checksums, taken from
+- `titles.json`: the 448 released titles and their ROM checksums (plus four other dumps that patches are made
+  for, marked with a `note`), taken from
   [WonderSwan_bps_repo](https://github.com/mariovirgili/WonderSwan_bps_repo) (No-Intro names).
 - `.github/workflows/board.yml`: checks `claims.json` and redraws the table above.
 

@@ -332,6 +332,18 @@
 "crc32": "4AED3911"
 },
 {
+"name": "Glocal Hexcite (Japan)",
+"system": "wonderswan",
+"crc32": "8FCD6D2C",
+"note": "another dump of this game, which patches are made for"
+},
+{
+"name": "Gomoku Narabe & Reversi - Touryuumon (Japan)",
+"system": "wonderswan",
+"crc32": "6CD1411E",
+"note": "another dump of this game, which patches are made for"
+},
+{
 "name": "Gomoku Narabe & Reversi - Touryuumon (Japan)",
 "system": "wonderswan",
 "crc32": "A9F11523"
@@ -350,6 +362,12 @@
 "name": "Hanafuda Shiyouyo (Japan)",
 "system": "wonderswan",
 "crc32": "4B22270D"
+},
+{
+"name": "Hanafuda Shiyouyo (Japan)",
+"system": "wonderswan",
+"crc32": "8E027330",
+"note": "another dump of this game, which patches are made for"
 },
 {
 "name": "Harobots (Japan)",
@@ -485,6 +503,12 @@
 "name": "Lode Runner for WonderSwan (Japan)",
 "system": "wonderswan",
 "crc32": "21279E82"
+},
+{
+"name": "Lode Runner for WonderSwan (Japan)",
+"system": "wonderswan",
+"crc32": "E407CABF",
+"note": "another dump of this game, which patches are made for"
 },
 {
 "name": "Mac the Speed Shooter (World) (Proto) (WonderWitch)",
@@ -1399,12 +1423,12 @@
 {
 "name": "Flash Masta Firmware (World)",
 "system": "wonderswan_color",
-"crc32": "C071D240"
+"crc32": "AABCE377"
 },
 {
 "name": "Flash Masta Firmware (World)",
 "system": "wonderswan_color",
-"crc32": "AABCE377"
+"crc32": "C071D240"
 },
 {
 "name": "Flip (World) (Proto) (WonderWitch)",
