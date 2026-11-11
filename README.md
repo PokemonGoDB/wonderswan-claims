@@ -11,11 +11,7 @@ them by itself every day.
 ## In progress
 
 <!-- board:start -->
-| Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **15 Puzzle** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | test of the claims list, will be removed |
-
-1 game in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+_Nobody has claimed a game yet._
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
