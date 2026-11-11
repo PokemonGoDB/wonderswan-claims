@@ -1,0 +1,102 @@
+# WonderSwan translations in progress
+
+Who is translating which WonderSwan or WonderSwan Color game right now, so two of us do not spend a week
+(and a lot of AI usage) on the same game. Check here before starting a game; put your name on it when you
+start; take it off when you release or give up.
+
+Finished patches are not listed here. They are in
+[WonderSwan_bps_repo](https://github.com/mariovirgili/WonderSwan_bps_repo/blob/main/TITLES.md), which finds
+them by itself every day.
+
+## In progress
+
+<!-- board:start -->
+_Nobody has claimed a game yet._
+<!-- board:end -->
+
+The table is redrawn about a minute after every change to [`claims.json`](claims.json).
+
+## Using it
+
+Get the one file you need (Python 3.8 or newer, no packages):
+
+```bash
+curl -fsSLO https://raw.githubusercontent.com/PokemonGoDB/wonderswan-claims/main/claim.py
+```
+
+| You want to | Run |
+| --- | --- |
+| See everything in progress | `python3 claim.py list` |
+| Know whether a game is free | `python3 claim.py check "Blue Wing Blitz"` |
+| Put your name on a game | `python3 claim.py claim "Blue Wing Blitz"` |
+| Say you are still on it (refreshes the date) | `python3 claim.py claim "Blue Wing Blitz"` again |
+| Pause it, or leave a note | `python3 claim.py claim "Blue Wing Blitz" --status paused --note "back in December"` |
+| Take your name off | `python3 claim.py done "Blue Wing Blitz"` |
+
+The game can be a full title, part of one (`"blue wing"`), or the ROM's CRC32. For a language other than
+English add `--lang Spanish`; two people can hold the same game in different languages.
+
+`check` also looks in the patch catalog and ends with one of three answers:
+
+| Answer | Exit code | Meaning |
+| --- | :---: | --- |
+| `FREE` or `YOURS` | 0 | Nobody else has claimed it and no patch in that language is out. |
+| `TAKEN` | 1 | Someone else is working on it. Do not start; ask them. |
+| `FREE, BUT ALREADY TRANSLATED` | 2 | Nobody is working on it, but someone has released a patch in that language. |
+
+Reading works for anyone. Changing the list needs push access to this repository and a signed-in
+[`gh`](https://cli.github.com/) command, or a token in `GH_TOKEN`. The command takes your name from that
+account; `--who NAME` overrides it.
+
+**No command line?** [Edit `claims.json` on GitHub](https://github.com/PokemonGoDB/wonderswan-claims/edit/main/claims.json)
+and add a block like this one inside `"claims": [ ... ]` (blocks are separated by commas). The game must be
+spelled as in [`titles.json`](titles.json), without the brackets:
+
+```json
+{
+  "game": "Blue Wing Blitz",
+  "system": "WonderSwan Color",
+  "who": "your-github-name",
+  "language": "English",
+  "status": "working",
+  "since": "2026-11-10",
+  "updated": "2026-11-10",
+  "note": ""
+}
+```
+
+If the file is broken after an edit, the Board run on the Actions tab fails and says which line is wrong.
+
+## For your AI agent
+
+Paste this into the instructions your agent reads at the start of a session (`AGENTS.md`, `CLAUDE.md`, or
+the custom instructions of your tool):
+
+```text
+Before starting work on any WonderSwan game, run
+    python3 claim.py check "<game title>"
+(claim.py: https://raw.githubusercontent.com/PokemonGoDB/wonderswan-claims/main/claim.py).
+- Exit code 1 (TAKEN): stop. Do not start the game. Tell me who has it.
+- Exit code 2 (ALREADY TRANSLATED): stop and ask me whether to go on.
+- Exit code 0: run  python3 claim.py claim "<game title>"  and then start.
+While working on a game for more than a few weeks, run the claim command again to refresh the date.
+When the patch is released, or the game is abandoned, run  python3 claim.py done "<game title>".
+```
+
+## Rules
+
+1. Check before you start, claim when you start. A claim is one line; a duplicated game is days of work.
+2. One claim means "I am working on this now or will this month". Do not reserve a backlog.
+3. A claim with no update for 30 days is marked ⚠️. Ask its owner; if they do not answer in a week, the game
+   is free.
+4. Release or give up: take your name off. The patch catalog picks the release up within a day.
+
+## Files
+
+- `claims.json`: the list. One block per game and language.
+- `claim.py`: the command above.
+- `titles.json`: the 448 released titles and their ROM checksums, taken from
+  [WonderSwan_bps_repo](https://github.com/mariovirgili/WonderSwan_bps_repo) (No-Intro names).
+- `.github/workflows/board.yml`: checks `claims.json` and redraws the table above.
+
+For programs: `https://raw.githubusercontent.com/PokemonGoDB/wonderswan-claims/main/claims.json`.
