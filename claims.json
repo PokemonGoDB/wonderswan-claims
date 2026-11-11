@@ -62,6 +62,16 @@
       "note": "translation finished, public release pending"
     },
     {
+      "game": "Medarot Perfect Edition - Kabuto Version",
+      "system": "WonderSwan",
+      "who": "PokemonGoDB",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-11",
+      "updated": "2026-11-11",
+      "note": ""
+    },
+    {
       "game": "Tokyo Majin Gakuen - Fuju Houroku",
       "system": "WonderSwan",
       "who": "PokemonGoDB",
