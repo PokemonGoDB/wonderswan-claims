@@ -11,7 +11,11 @@ them by itself every day.
 ## In progress
 
 <!-- board:start -->
-_Nobody has claimed a game yet._
+| Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Langrisser Millennium WS - The Last Century** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
+
+1 game in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
