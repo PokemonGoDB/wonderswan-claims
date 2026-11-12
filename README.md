@@ -15,7 +15,6 @@ them by itself every day.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Cardcaptor Sakura - Sakura to Fushigi na Clow Card** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | [mariovirgili Spanish v0.2.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES) |  |
 | **Chaos Gear - Michibikareshi Mono** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
-| **Digital Partner** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Langrisser Millennium WS - The Last Century** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Medarot Perfect Edition - Kabuto Version** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Medarot Perfect Edition - Kuwagata Version** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
@@ -26,7 +25,7 @@ them by itself every day.
 | **Tokyo Majin Gakuen - Fuju Houroku** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Wild Card** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 
-12 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+11 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
