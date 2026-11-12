@@ -22,6 +22,16 @@
       "note": "translation finished, public release pending"
     },
     {
+      "game": "Blue Wing Blitz",
+      "system": "WonderSwan Color",
+      "who": "PokemonGoDB",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-12",
+      "updated": "2026-11-12",
+      "note": ""
+    },
+    {
       "game": "Cardcaptor Sakura - Sakura to Fushigi na Clow Card",
       "system": "WonderSwan",
       "who": "PokemonGoDB",
