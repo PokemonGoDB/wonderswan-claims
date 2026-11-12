@@ -22,6 +22,7 @@ them by itself every day.
 | **Dicing Knight.** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Digital Partner** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Final Fantasy IV** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | [mariovirgili English v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |  |
+| **Front Mission** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | [Gand46 English v035](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/patches/v035_TEST_from_clean.bps) |  |
 | **Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!!** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | [mariovirgili English v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HanjukuHero_0.9) |  |
 | **Langrisser Millennium WS - The Last Century** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Medarot Perfect Edition - Kabuto Version** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
@@ -33,7 +34,7 @@ them by itself every day.
 | **Tokyo Majin Gakuen - Fuju Houroku** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Wild Card** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 
-19 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+20 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
