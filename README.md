@@ -13,6 +13,7 @@ them by itself every day.
 <!-- board:start -->
 | Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **Arc the Lad - Kishin Fukkatsu** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | [mariovirgili English v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9) |  |
 | **Armored Unit** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Cardcaptor Sakura - Sakura to Fushigi na Clow Card** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | [mariovirgili Spanish v0.2.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES) |  |
 | **Chaos Gear - Michibikareshi Mono** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
@@ -29,7 +30,7 @@ them by itself every day.
 | **Tokyo Majin Gakuen - Fuju Houroku** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Wild Card** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 
-15 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+16 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
