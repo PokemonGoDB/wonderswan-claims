@@ -18,9 +18,6 @@ them by itself every day.
 | **Chaos Gear - Michibikareshi Mono** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Chocobo no Fushigi na Dungeon for WonderSwan** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | [Gand46 language not stated v1.1](https://github.com/Gand46/Chocobo_no_Fushigi_na_Dungeon_Mysterious_Dungeon_WS_AI_ROM-FIX-/blob/main/src/legacy_v1.1_original.ips) |  |
 | **Digital Partner** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
-| **Final Fantasy IV** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | [mariovirgili English v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/FFIV) |  |
-| **Front Mission** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | [Gand46 English v035](https://github.com/Gand46/Front-Mission-Wonderswan-English-Translation-AI_GPT/blob/main/patches/v035_TEST_from_clean.bps) |  |
-| **Hanjuku Hero - Ah, Sekai yo Hanjuku Nare...!!** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | [mariovirgili English v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/HanjukuHero_0.9) |  |
 | **Langrisser Millennium WS - The Last Century** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Medarot Perfect Edition - Kabuto Version** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Medarot Perfect Edition - Kuwagata Version** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
@@ -31,7 +28,7 @@ them by itself every day.
 | **Tokyo Majin Gakuen - Fuju Houroku** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Wild Card** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 
-17 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+14 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
