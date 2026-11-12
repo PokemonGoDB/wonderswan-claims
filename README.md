@@ -13,7 +13,6 @@ them by itself every day.
 <!-- board:start -->
 | Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Arc the Lad - Kishin Fukkatsu** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | [mariovirgili English v0.9](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/ArcTheLad_0.9) |  |
 | **Armored Unit** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Blue Wing Blitz** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | [Gand46 English v5.0.0](https://github.com/Gand46/BlueWingBlitz-Wonderswan-English-Translation-AI_GPT/blob/main/patch/Blue_Wing_Blitz_EN_Phase50_v5.0.0-test.1.bps), [mariovirgili English v0.9.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/BlueWing_0.9.1) |  |
 | **Cardcaptor Sakura - Sakura to Fushigi na Clow Card** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | [mariovirgili Spanish v0.2.1](https://github.com/mariovirgili/WonderSwanColor-AI_Translation/releases/tag/CCS_ES) |  |
@@ -33,7 +32,7 @@ them by itself every day.
 | **Tokyo Majin Gakuen - Fuju Houroku** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Wild Card** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 
-19 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+18 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
