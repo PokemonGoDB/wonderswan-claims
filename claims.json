@@ -32,6 +32,16 @@
       "note": "translation finished, public release pending"
     },
     {
+      "game": "Magical Drop for WonderSwan",
+      "system": "WonderSwan",
+      "who": "mariovirgili",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-12",
+      "updated": "2026-11-12",
+      "note": ""
+    },
+    {
       "game": "Medarot Perfect Edition - Kabuto Version",
       "system": "WonderSwan",
       "who": "PokemonGoDB",
