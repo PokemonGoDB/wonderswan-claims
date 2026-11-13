@@ -2,6 +2,26 @@
   "schema": 1,
   "claims": [
     {
+      "game": "From TV Animation One Piece - Treasure Wars",
+      "system": "WonderSwan Color",
+      "who": "mariovirgili",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-13",
+      "updated": "2026-11-13",
+      "note": ""
+    },
+    {
+      "game": "From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso",
+      "system": "WonderSwan Color",
+      "who": "mariovirgili",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-13",
+      "updated": "2026-11-13",
+      "note": ""
+    },
+    {
       "game": "Langrisser Millennium WS - The Last Century",
       "system": "WonderSwan",
       "who": "PokemonGoDB",
