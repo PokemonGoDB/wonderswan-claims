@@ -13,8 +13,6 @@ them by itself every day.
 <!-- board:start -->
 | Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **From TV Animation One Piece - Treasure Wars** | WonderSwan Color | [mariovirgili](https://github.com/mariovirgili) | English | working | 2026-11-13 | 2026-11-13 | none |  |
-| **From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso** | WonderSwan Color | [mariovirgili](https://github.com/mariovirgili) | English | working | 2026-11-13 | 2026-11-13 | none |  |
 | **Langrisser Millennium WS - The Last Century** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Naruto - Konoha Ninpouchou** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-12 | 2026-11-12 | none | started 2026-11-12 |
 | **Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
@@ -25,7 +23,7 @@ them by itself every day.
 | **Tokyo Majin Gakuen - Fuju Houroku** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Uzumaki - Denshi Kaiki Hen** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-13 | 2026-11-13 | none | started 2026-11-13 |
 
-11 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+9 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
