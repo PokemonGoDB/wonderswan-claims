@@ -13,6 +13,8 @@ them by itself every day.
 <!-- board:start -->
 | Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **From TV Animation One Piece - Treasure Wars** | WonderSwan Color | [mariovirgili](https://github.com/mariovirgili) | English | working | 2026-11-13 | 2026-11-13 | none |  |
+| **From TV Animation One Piece - Treasure Wars 2 - Buggy Land e Youkoso** | WonderSwan Color | [mariovirgili](https://github.com/mariovirgili) | English | working | 2026-11-13 | 2026-11-13 | none |  |
 | **Langrisser Millennium WS - The Last Century** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none | translation finished, public release pending |
 | **Medarot Perfect Edition - Kabuto Version** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Medarot Perfect Edition - Kuwagata Version** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
@@ -23,7 +25,7 @@ them by itself every day.
 | **Super Robot Taisen Compact 3** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 | **Tokyo Majin Gakuen - Fuju Houroku** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 
-9 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+11 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
