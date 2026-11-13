@@ -2,16 +2,6 @@
   "schema": 1,
   "claims": [
     {
-      "game": "Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen",
-      "system": "WonderSwan",
-      "who": "mariovirgili",
-      "language": "English",
-      "status": "working",
-      "since": "2026-11-13",
-      "updated": "2026-11-13",
-      "note": ""
-    },
-    {
       "game": "Langrisser Millennium WS - The Last Century",
       "system": "WonderSwan",
       "who": "PokemonGoDB",
