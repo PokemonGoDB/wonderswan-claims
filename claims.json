@@ -2,16 +2,6 @@
   "schema": 1,
   "claims": [
     {
-      "game": "Memories Off - Festa",
-      "system": "WonderSwan Color",
-      "who": "mariovirgili",
-      "language": "English",
-      "status": "working",
-      "since": "2026-11-14",
-      "updated": "2026-11-14",
-      "note": ""
-    },
-    {
       "game": "Super Robot Taisen Compact 3",
       "system": "WonderSwan Color",
       "who": "PokemonGoDB",
