@@ -20,6 +20,16 @@
       "since": "2026-11-11",
       "updated": "2026-11-11",
       "note": ""
+    },
+    {
+      "game": "Vaitz Blade",
+      "system": "WonderSwan",
+      "who": "PokemonGoDB",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-16",
+      "updated": "2026-11-16",
+      "note": ""
     }
   ]
 }
