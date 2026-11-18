@@ -2,16 +2,6 @@
   "schema": 1,
   "claims": [
     {
-      "game": "Hunter X Hunter - Greed Island",
-      "system": "WonderSwan Color",
-      "who": "mariovirgili",
-      "language": "English",
-      "status": "working",
-      "since": "2026-11-18",
-      "updated": "2026-11-18",
-      "note": ""
-    },
-    {
       "game": "Super Robot Taisen Compact 3",
       "system": "WonderSwan Color",
       "who": "PokemonGoDB",
