@@ -22,16 +22,6 @@
       "note": ""
     },
     {
-      "game": "Super Robot Taisen Compact",
-      "system": "WonderSwan",
-      "who": "PokemonGoDB",
-      "language": "English",
-      "status": "working",
-      "since": "2026-11-19",
-      "updated": "2026-11-19",
-      "note": "AI-assisted English patch (Swan Revival); started 2026-11-19, after the WSC remake"
-    },
-    {
       "game": "Super Robot Taisen Compact for WonderSwan Color",
       "system": "WonderSwan Color",
       "who": "PokemonGoDB",
