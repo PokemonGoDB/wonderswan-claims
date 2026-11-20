@@ -12,6 +12,16 @@
       "note": "AI-assisted English patch (Swan Revival); started 2026-11-19"
     },
     {
+      "game": "Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen",
+      "system": "WonderSwan",
+      "who": "PokemonGoDB",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-20",
+      "updated": "2026-11-20",
+      "note": "AI-assisted English patch (Swan Revival); restarted 2026-11-20 on the owner's word"
+    },
+    {
       "game": "Super Robot Taisen Compact for WonderSwan Color",
       "system": "WonderSwan Color",
       "who": "PokemonGoDB",
