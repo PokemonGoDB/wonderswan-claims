@@ -14,10 +14,11 @@ them by itself every day.
 | Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Last Stand** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-19 | 2026-11-19 | none |  |
+| **Raku Jongg** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-20 | 2026-11-20 | none | AI-assisted English patch (Swan Revival); started 2026-11-19 |
 | **Super Robot Taisen Compact for WonderSwan Color** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-19 | 2026-11-19 | none | AI-assisted English patch (Swan Revival); started 2026-11-19 |
 | **Tokyo Majin Gakuen - Fuju Houroku** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 
-3 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+4 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
