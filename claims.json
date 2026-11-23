@@ -2,6 +2,16 @@
   "schema": 1,
   "claims": [
     {
+      "game": "Dark Eyes - Battle Gate",
+      "system": "WonderSwan Color",
+      "who": "mariovirgili",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-23",
+      "updated": "2026-11-23",
+      "note": ""
+    },
+    {
       "game": "Hunter X Hunter - Michibikareshi Mono",
       "system": "WonderSwan Color",
       "who": "PokemonGoDB",
