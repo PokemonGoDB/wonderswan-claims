@@ -17,13 +17,12 @@ them by itself every day.
 | **Inuyasha - Kagome no Sengoku Nikki** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-21 | 2026-11-21 | none |  |
 | **Inuyasha - Kagome no Yume Nikki** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-21 | 2026-11-21 | none |  |
 | **Kiss Yori... - Seaside Serenade** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-24 | 2026-11-24 | none |  |
-| **Kurupara!** | WonderSwan Color | [mariovirgili](https://github.com/mariovirgili) | English | working | 2026-11-25 | 2026-11-25 | none |  |
 | **Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-20 | 2026-11-20 | none | AI-assisted English patch (Swan Revival); restarted 2026-11-20 on the owner's word |
 | **Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-20 | 2026-11-20 | none | AI-assisted English patch (Swan Revival); restarted 2026-11-20 on the owner's word |
 | **Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-20 | 2026-11-20 | none | AI-assisted English patch (Swan Revival); restarted 2026-11-20 on the owner's word |
 | **Tokyo Majin Gakuen - Fuju Houroku** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-11 | 2026-11-11 | none |  |
 
-9 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+8 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
