@@ -2,16 +2,6 @@
   "schema": 1,
   "claims": [
     {
-      "game": "Inuyasha - Kagome no Sengoku Nikki",
-      "system": "WonderSwan Color",
-      "who": "PokemonGoDB",
-      "language": "English",
-      "status": "working",
-      "since": "2026-11-21",
-      "updated": "2026-11-21",
-      "note": ""
-    },
-    {
       "game": "Inuyasha - Kagome no Yume Nikki",
       "system": "WonderSwan Color",
       "who": "PokemonGoDB",
