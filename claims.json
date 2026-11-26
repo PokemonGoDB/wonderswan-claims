@@ -2,6 +2,16 @@
   "schema": 1,
   "claims": [
     {
+      "game": "Last Alive",
+      "system": "WonderSwan Color",
+      "who": "PokemonGoDB",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-26",
+      "updated": "2026-11-26",
+      "note": ""
+    },
+    {
       "game": "Shaman King - Asu e no Ishi",
       "system": "WonderSwan Color",
       "who": "PokemonGoDB",
