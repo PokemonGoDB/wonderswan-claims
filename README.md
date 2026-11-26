@@ -13,13 +13,10 @@ them by itself every day.
 <!-- board:start -->
 | Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-20 | 2026-11-20 | none | AI-assisted English patch (Swan Revival); restarted 2026-11-20 on the owner's word |
-| **Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-20 | 2026-11-20 | none | AI-assisted English patch (Swan Revival); restarted 2026-11-20 on the owner's word |
-| **Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-20 | 2026-11-20 | none | AI-assisted English patch (Swan Revival); restarted 2026-11-20 on the owner's word |
 | **Umizuri ni Ikou!** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-25 | 2026-11-25 | none |  |
 | **Wonder Classic** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-25 | 2026-11-25 | none |  |
 
-5 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+2 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
