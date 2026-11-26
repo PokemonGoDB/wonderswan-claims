@@ -2,16 +2,6 @@
   "schema": 1,
   "claims": [
     {
-      "game": "Sorobang",
-      "system": "WonderSwan Color",
-      "who": "PokemonGoDB",
-      "language": "English",
-      "status": "working",
-      "since": "2026-11-25",
-      "updated": "2026-11-25",
-      "note": ""
-    },
-    {
       "game": "Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen",
       "system": "WonderSwan",
       "who": "PokemonGoDB",
