@@ -2,6 +2,16 @@
   "schema": 1,
   "claims": [
     {
+      "game": "Kinnikuman II-Sei - Dream Tag Match",
+      "system": "WonderSwan Color",
+      "who": "mariovirgili",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-26",
+      "updated": "2026-11-26",
+      "note": ""
+    },
+    {
       "game": "Last Alive",
       "system": "WonderSwan Color",
       "who": "PokemonGoDB",
@@ -32,6 +42,16 @@
       "note": ""
     },
     {
+      "game": "Sotsugyou for WonderSwan",
+      "system": "WonderSwan",
+      "who": "PokemonGoDB",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-27",
+      "updated": "2026-11-27",
+      "note": ""
+    },
+    {
       "game": "Wonder Classic",
       "system": "WonderSwan Color",
       "who": "PokemonGoDB",
@@ -39,16 +59,6 @@
       "status": "working",
       "since": "2026-11-25",
       "updated": "2026-11-25",
-      "note": ""
-    },
-    {
-      "game": "Kinnikuman II-Sei - Dream Tag Match",
-      "system": "WonderSwan Color",
-      "who": "mariovirgili",
-      "language": "English",
-      "status": "working",
-      "since": "2026-11-26",
-      "updated": "2026-11-26",
       "note": ""
     }
   ]
