@@ -20,9 +20,8 @@ them by itself every day.
 | **Senkaiden - TV Animation Senkaiden Houshin Engi Yori** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-27 | 2026-11-27 | none |  |
 | **Shaman King - Asu e no Ishi** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-26 | 2026-11-26 | none |  |
 | **Sotsugyou for WonderSwan** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-27 | 2026-11-27 | none |  |
-| **Wonder Classic** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-25 | 2026-11-25 | none |  |
 
-8 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+7 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
