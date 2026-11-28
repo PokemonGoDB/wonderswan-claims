@@ -13,7 +13,6 @@ them by itself every day.
 <!-- board:start -->
 | Game | System | Who | Language | Status | Since | Last update | Patches already out | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Gransta Chronicle** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-28 | 2026-11-28 | none |  |
 | **Kinnikuman II-Sei - Dream Tag Match** | WonderSwan Color | [mariovirgili](https://github.com/mariovirgili) | English | working | 2026-11-26 | 2026-11-26 | none |  |
 | **Senkaiden Ni - TV Animation Senkaiden Houshin Engi Yori** | WonderSwan Color | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-27 | 2026-11-27 | none |  |
 | **Senkaiden - TV Animation Senkaiden Houshin Engi Yori** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-27 | 2026-11-27 | none |  |
@@ -21,7 +20,7 @@ them by itself every day.
 | **Slither Link** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-28 | 2026-11-28 | none |  |
 | **Sotsugyou for WonderSwan** | WonderSwan | [PokemonGoDB](https://github.com/PokemonGoDB) | English | working | 2026-11-27 | 2026-11-27 | none |  |
 
-7 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
+6 games in progress. ⚠️ = no update for more than 30 days: ask before assuming it is still being worked on.
 <!-- board:end -->
 
 The table is redrawn about a minute after every change to [`claims.json`](claims.json).
