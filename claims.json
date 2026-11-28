@@ -2,6 +2,16 @@
   "schema": 1,
   "claims": [
     {
+      "game": "Gransta Chronicle",
+      "system": "WonderSwan Color",
+      "who": "PokemonGoDB",
+      "language": "English",
+      "status": "working",
+      "since": "2026-11-28",
+      "updated": "2026-11-28",
+      "note": ""
+    },
+    {
       "game": "Kinnikuman II-Sei - Dream Tag Match",
       "system": "WonderSwan Color",
       "who": "mariovirgili",
